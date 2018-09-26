@@ -3,4 +3,5 @@ def turn_count(board)
   board.each do |pos|
     count += 1 unless pos == " "
   end
+  count
 end
